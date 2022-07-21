@@ -1,0 +1,55 @@
+$prm-font:'Trebuchet MS';
+
+* {
+    margin:0px;
+    font-family: $prm-font;
+}
+
+body {
+
+    img {
+        max-height: 50vh;
+        width: 100vw;
+    }
+
+    main {
+        margin:6%;
+    }
+
+        h1 {
+            margin:6%;
+            font-size: 60px;
+
+        }
+
+        p {
+            margin: 6%;
+            color: gray;
+            font-size: 20px;
+            line-height: 2;
+        }
+    
+    div {
+        display: flex;
+
+    }
+
+        .main__div {
+            border:2px solid black;
+            text-decoration: none;
+            padding: 15px 30px 15px 30px;
+            font-size: 25px;
+        }
+
+        #main__div--1 {
+            background-color: black;
+            color: white;
+            margin-left: 12%;
+        }
+
+        #main__div--2 {
+            background-color: white;
+            color:black;
+            margin-left: 3%;
+        }
+}

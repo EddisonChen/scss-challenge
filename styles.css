@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  font-family: "Trebuchet MS";
+}
+
+body img {
+  max-height: 50vh;
+  width: 100vw;
+}
+body main {
+  margin: 6%;
+}
+body h1 {
+  margin: 6%;
+  font-size: 60px;
+}
+body p {
+  margin: 6%;
+  color: gray;
+  font-size: 20px;
+  line-height: 2;
+}
+body div {
+  display: flex;
+}
+body .main__div {
+  border: 2px solid black;
+  text-decoration: none;
+  padding: 15px 30px 15px 30px;
+  font-size: 25px;
+}
+body #main__div--1 {
+  background-color: black;
+  color: white;
+  margin-left: 12%;
+}
+body #main__div--2 {
+  background-color: white;
+  color: black;
+  margin-left: 3%;
+}/*# sourceMappingURL=styles.css.map */
