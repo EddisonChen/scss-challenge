@@ -3,9 +3,13 @@
   font-family: "Trebuchet MS";
 }
 
+body {
+  max-width: 753px;
+}
 body img {
   max-height: 50vh;
   width: 100vw;
+  max-width: 753px;
 }
 body main {
   margin: 6%;

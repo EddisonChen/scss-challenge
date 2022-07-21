@@ -6,10 +6,12 @@ $prm-font:'Trebuchet MS';
 }
 
 body {
+    max-width: 753px;
 
     img {
         max-height: 50vh;
         width: 100vw;
+        max-width: 753px;
     }
 
     main {
